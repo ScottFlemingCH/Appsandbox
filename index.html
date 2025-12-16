@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    
+    <link rel="apple-touch-icon" href="icon.png">
+    
+    <title>My App</title>
+    
+    <style>
+        /* Basic "App-like" Styling */
+        body {
+            background-color: #1c1c1e; /* iOS Dark Mode Grey */
+            color: white;
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            margin: 0;
+            padding: 20px;
+            padding-top: 60px; /* Space for the notch/status bar */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            touch-action: manipulation; /* Improves touch response */
+        }
+        
+        button {
+            background: #007AFF; /* iOS Blue */
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 12px;
+            margin-top: 20px;
+            width: 100%;
+            max-width: 300px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Hello World</h1>
+    <p>This is your personal iPhone App.</p>
+    
+    <button onclick="alert('It works!')">Tap Me</button>
+
+</body>
+</html>
